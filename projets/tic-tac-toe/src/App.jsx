@@ -1,9 +1,9 @@
-import { useState } from "react"
-import confetti from "canvas-confetti"
-import { Square } from "./components/Square"
-import { TURNS } from "./constants"
-import { checkWinnerFrom, checkEndGame } from "./logic/board"
-import { WinnerModal } from "./components/WinnerModal"
+import { useState } from 'react'
+import confetti from 'canvas-confetti'
+import { Square } from './components/Square'
+import { TURNS } from './constants'
+import { checkWinnerFrom, checkEndGame } from './logic/board'
+import { WinnerModal } from './components/WinnerModal'
 import { saveGameToStorage, resetGameStorage } from './logic/storage/index.js'
 
 
