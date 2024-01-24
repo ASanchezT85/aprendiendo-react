@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/ASanchezT85/aprendiendo-react#readme",
   "devDependencies": {
-    "standard": "^17.1.0"
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.4.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
